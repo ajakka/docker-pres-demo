@@ -1,0 +1,14 @@
+{
+  "name": "docker-pres-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ajakka/docker-pres-demo.git",
+  "author": "Abderrahim Ajakka <aajakka@masaratapp.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
