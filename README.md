@@ -43,8 +43,16 @@ $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev
 
 1. Build the image
 
-`docker build -t fpt/nodeapp:1.0.0 .`
+`sudo docker build -t fpt/nodeapp:1.0.0 .`
 
-2. Start the container
+2. Run the container
 
-`docker run -p 8080:8080 --name fpt-nodeapp fpt/nodeapp:1.0.0`
+`sudo docker run -p 8080:8080 --name fpt-nodeapp fpt/nodeapp:1.0.0`
+
+3. Stop the container
+
+`sudo docker container stop fpt-nodeapp`
+
+4. Start the container
+
+`sudo docker container start fpt-nodeapp`
